@@ -1,0 +1,14 @@
+{
+  "name": "postman-jmeter",
+  "version": "0.0.1",
+  "description": "Convert Postman collection file to Jmeter",
+  "main": "./bin/postman-jmeter.js",
+  "bin": {
+    "postman-jmeter": "./bin/postman-jmeter.js"
+  },
+  "dependencies": {"commander": ">=2.8.1"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  }
+}
